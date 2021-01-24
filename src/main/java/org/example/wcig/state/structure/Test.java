@@ -2,10 +2,10 @@ package org.example.wcig.state.structure;
 
 public class Test {
     public static void main(String[] args) {
-        Context ca = new Context(new ConcreteStateA());
-        ca.request();
+        Context c = new Context("A");
+        c.request();
 
-        ca.setState(new ConcreteStateB());
-        ca.request();
+        c.setStateVal("B");
+        c.request();
     }
 }
