@@ -5,7 +5,7 @@ public class Test {
         Context ca = new Context(new ConcreteStateA());
         ca.request();
 
-        ca.setState(new ConcreteStateB());
+        ca.moveState(new ConcreteStateB());
         ca.request();
     }
 }

@@ -7,7 +7,7 @@ public class Context {
         this.state = state;
     }
 
-    public void setState(State state) {
+    public void moveState(State state) {
         this.state = state;
     }
 
